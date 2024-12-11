@@ -1,0 +1,14 @@
+// To allow formatting on autosave you need to install the
+//  "Format on Auto Save" extension
+// https://github.com/microsoft/vscode/issues/45997#issuecomment-950405496
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        88
+    ],
+
+}
